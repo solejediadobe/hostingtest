@@ -8,17 +8,20 @@
 body {overflow-x: hidden;}
 #wrap {width:0px; margin: auto;}
 #intro {margin-left:-960px; width:1920px; height:960px; background-color: rgb(255, 81, 0); text-align: center;}
-#portfolio {margin-left:-960px; width:1920px; height:960px;background-color: orange;}
+#portfolio {margin-left:-960px; width:1920px; height:960px;background-color: orange; overflow: hidden;}
 #information {margin-left:-960px; width:1920px; height:960px;background-color: rgb(255, 81, 0);}
 #footer {margin-left:-960px; width:1920px; height:960px;background-color: orange;}
+.thumb1 {display: block; margin:300px auto; }
     </style>
 
 </head>
 <body>
 
 <div id="wrap">
-    <div id="intro"><video id="introbg" src="intro.mp4" autoplay muted loop></video></div>
-    <div id="portfolio"></div>
+    <div id="intro"><video id="introbg" src="04.mp4" width="1920px" autoplay muted loop></video></div>
+    <div id="portfolio">
+        <a href="01.html" target="_blank"><img class="thumb1" src="01.jpg" width="400px"></a>
+    </div>
     <div id="information"></div>
     <div id="footer"></div>
 </div>
